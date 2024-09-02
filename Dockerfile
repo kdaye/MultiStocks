@@ -17,4 +17,4 @@ ENV VIRTUAL_ENV=/app/venv
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 # 运行时的入口点
-ENTRYPOINT ["sh", "-c", "python3 /app/convert_config.py && /mihomo --config /root/.config/mihomo/config.yaml start"]
+ENTRYPOINT ["sh", "-c", "python3 /app/convert_config.py && /mihomo"]
