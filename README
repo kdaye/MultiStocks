@@ -1,0 +1,13 @@
+# MultiStocks
+
+
+这个docker实现了多出口多入口的stocks5
+
+## 简介
+
+使用metacubex/mihomo官方镜像，增加了针对订阅url转化成配置文件。
+
+## 使用方法
+```
+docker run -e CONFIG_URL="http://example.com/config.yaml" -e START_PORT=40000 my_mihomo_image
+```
