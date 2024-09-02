@@ -1,3 +1,5 @@
+import sys
+print("Python executable used:", sys.executable)
 import os
 import yaml
 import requests
